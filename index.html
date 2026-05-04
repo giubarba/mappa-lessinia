@@ -2,19 +2,17 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Mappa Lessinia</title>
+    <title>Mappa Lessinia Professionale</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
     <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-        /* Stile per il popup */
         .maplibregl-popup-content {
             font-family: 'Arial', sans-serif;
             padding: 10px;
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
         }
     </style>
 </head>
@@ -23,7 +21,6 @@
     <script>
         const map = new maplibregl.Map({
             container: 'map',
-            // Uso il tuo stile personalizzato MapTiler
             style: 'https://api.maptiler.com/maps/019df264-fca7-7199-9a67-7feac9277de9/style.json?key=XdbX0zpBOhaNfNO40BUA', 
             center: [11.02, 45.62], 
             zoom: 11
@@ -46,7 +43,7 @@
                 }
             });
 
-            // --- LIVELLO 2: GROTTE CON SIMBOLO ---
+            // --- LIVELLO 2: GROTTE ---
             map.addSource('grotte-lessinia', {
                 'type': 'geojson',
                 'data': './Grotte_Lessinia.geojson' 
@@ -54,54 +51,73 @@
 
             map.addLayer({
                 'id': 'livello-grotte',
-                'type': 'symbol', // Usiamo 'symbol' per icone e testo
+                'type': 'symbol',
                 'source': 'grotte-lessinia',
                 'layout': {
-                    'icon-image': 'cave_entrance', // Icona standard grotta
-                    'icon-size': 1.2,
+                    'icon-image': 'cave_entrance',
+                    'icon-size': 1.3,
                     'icon-allow-overlap': true,
-                    // Mostriamo il nome direttamente sulla mappa
                     'text-field': ['get', 'name'],
                     'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
-                    'text-offset': [0, 1.2],
+                    'text-offset': [0, 1.5],
                     'text-anchor': 'top',
-                    'text-size': 11
+                    'text-size': 10
                 },
                 'paint': {
-                    'text-color': '#4a0072', // Viola scuro per il testo
-                    'text-halo-color': '#ffffff', // Alone bianco per leggere meglio
+                    'text-color': '#333333',
+                    'text-halo-color': '#ffffff',
+                    'text-halo-width': 1.5
+                }
+            });
+
+            // --- LIVELLO 3: AREE PICNIC ---
+            map.addSource('picnic-lessinia', {
+                'type': 'geojson',
+                'data': './Picnic_Lessinia.geojson' 
+            });
+
+            map.addLayer({
+                'id': 'livello-picnic',
+                'type': 'symbol',
+                'source': 'picnic-lessinia',
+                'layout': {
+                    'icon-image': 'picnic_site', // Icona tavolino da picnic
+                    'icon-size': 1.2,
+                    'icon-allow-overlap': true,
+                    'text-field': ['get', 'name'],
+                    'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+                    'text-offset': [0, 1.5],
+                    'text-anchor': 'top',
+                    'text-size': 10
+                },
+                'paint': {
+                    'text-color': '#1b4332', // Verde scuro per il testo picnic
+                    'text-halo-color': '#ffffff',
                     'text-halo-width': 1.5
                 }
             });
         });
 
-        // --- GESTIONE CLICK ED ETICHETTE (POPUP) ---
+        // GESTIONE CLICK (aggiornata per includere il livello picnic)
         map.on('click', (e) => {
             const features = map.queryRenderedFeatures(e.point, {
-                layers: ['livello-grotte', 'livello-lessinia']
+                layers: ['livello-grotte', 'livello-lessinia', 'livello-picnic']
             });
-
             if (!features.length) return;
-
             const feature = features[0];
             const nome = feature.properties.name || "Senza nome";
             
-            // Se ci sono altri tag nel GeoJSON (es. descrizione o ref), appariranno qui
-            const descrizione = feature.properties.description ? `<br><small>${feature.properties.description}</small>` : "";
-
             new maplibregl.Popup()
                 .setLngLat(e.lngLat)
-                .setHTML(`<strong>${nome}</strong>${descrizione}`)
+                .setHTML(`<strong>${nome}</strong>`)
                 .addTo(map);
         });
 
-        // Cambia il cursore sopra le grotte
-        map.on('mouseenter', 'livello-grotte', () => {
-            map.getCanvas().style.cursor = 'pointer';
-        });
-        map.on('mouseleave', 'livello-grotte', () => {
-            map.getCanvas().style.cursor = '';
-        });
+        // Cambio cursore per i livelli interattivi
+        map.on('mouseenter', 'livello-grotte', () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'livello-grotte', () => { map.getCanvas().style.cursor = ''; });
+        map.on('mouseenter', 'livello-picnic', () => { map.getCanvas().style.cursor = 'pointer'; });
+        map.on('mouseleave', 'livello-picnic', () => { map.getCanvas().style.cursor = ''; });
     </script>
 </body>
 </html>
