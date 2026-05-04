@@ -9,15 +9,48 @@
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-        .maplibregl-popup-content {
-            font-family: 'Arial', sans-serif;
-            padding: 10px;
+        
+        /* Stile del Pannello di Controllo */
+        .console {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 200px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
             border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            z-index: 1;
         }
+        .console h3 { margin: 0 0 10px 0; font-size: 16px; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        .item { margin-bottom: 8px; display: flex; align-items: center; cursor: pointer; }
+        .item input { margin-right: 10px; cursor: pointer; }
+        
+        .maplibregl-popup-content { padding: 10px; border-radius: 8px; }
     </style>
 </head>
 <body>
+
+    <!-- Pannello di attivazione/disattivazione -->
+    <div class="console">
+        <h3>Livelli Mappa</h3>
+        <div class="item">
+            <input type="checkbox" id="check-confini" checked>
+            <label for="check-confini">Confini Parco</label>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="check-grotte" checked>
+            <label for="check-grotte">Grotte</label>
+        </div>
+        <div class="item">
+            <input type="checkbox" id="check-picnic" checked>
+            <label for="check-picnic">Aree Picnic</label>
+        </div>
+    </div>
+
     <div id="map"></div>
+
     <script>
         const map = new maplibregl.Map({
             container: 'map',
@@ -27,97 +60,85 @@
         });
 
         map.on('load', () => {
-            // --- LIVELLO 1: CONFINI ---
-            map.addSource('dati-lessinia', {
-                'type': 'geojson',
-                'data': './Confini Lessinia.geojson'
-            });
-
+            // --- SORGENTE E LIVELLO: CONFINI ---
+            map.addSource('source-confini', { 'type': 'geojson', 'data': './Confini Lessinia.geojson' });
             map.addLayer({
                 'id': 'livello-lessinia',
                 'type': 'line',
-                'source': 'dati-lessinia',
-                'paint': {
-                    'line-color': '#e63946',
-                    'line-width': 3
-                }
+                'source': 'source-confini',
+                'paint': { 'line-color': '#e63946', 'line-width': 3 }
             });
 
-            // --- LIVELLO 2: GROTTE ---
-            map.addSource('grotte-lessinia', {
-                'type': 'geojson',
-                'data': './Grotte_Lessinia.geojson' 
-            });
-
+            // --- SORGENTE E LIVELLO: GROTTE ---
+            map.addSource('source-grotte', { 'type': 'geojson', 'data': './Grotte_Lessinia.geojson' });
             map.addLayer({
                 'id': 'livello-grotte',
                 'type': 'symbol',
-                'source': 'grotte-lessinia',
+                'source': 'source-grotte',
                 'layout': {
                     'icon-image': 'cave_entrance',
                     'icon-size': 1.3,
-                    'icon-allow-overlap': true,
                     'text-field': ['get', 'name'],
-                    'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+                    'text-size': 10,
                     'text-offset': [0, 1.5],
-                    'text-anchor': 'top',
-                    'text-size': 10
+                    'text-anchor': 'top'
                 },
-                'paint': {
-                    'text-color': '#333333',
-                    'text-halo-color': '#ffffff',
-                    'text-halo-width': 1.5
-                }
+                'paint': { 'text-halo-color': '#fff', 'text-halo-width': 1.5 }
             });
 
-            // --- LIVELLO 3: AREE PICNIC ---
-            map.addSource('picnic-lessinia', {
-                'type': 'geojson',
-                'data': './Picnic_Lessinia.geojson' 
-            });
-
+            // --- SORGENTE E LIVELLO: PICNIC ---
+            map.addSource('source-picnic', { 'type': 'geojson', 'data': './Picnic_Lessinia.geojson' });
             map.addLayer({
                 'id': 'livello-picnic',
                 'type': 'symbol',
-                'source': 'picnic-lessinia',
+                'source': 'source-picnic',
                 'layout': {
-                    'icon-image': 'picnic_site', // Icona tavolino da picnic
+                    'icon-image': 'picnic_site',
                     'icon-size': 1.2,
-                    'icon-allow-overlap': true,
                     'text-field': ['get', 'name'],
-                    'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+                    'text-size': 10,
                     'text-offset': [0, 1.5],
-                    'text-anchor': 'top',
-                    'text-size': 10
+                    'text-anchor': 'top'
                 },
-                'paint': {
-                    'text-color': '#1b4332', // Verde scuro per il testo picnic
-                    'text-halo-color': '#ffffff',
-                    'text-halo-width': 1.5
-                }
+                'paint': { 'text-halo-color': '#fff', 'text-halo-width': 1.5 }
             });
         });
 
-        // GESTIONE CLICK (aggiornata per includere il livello picnic)
+        // LOGICA DEL PANNELLO (Accendi/Spegni)
+        const toggleLayer = (idCheckbox, idLayer) => {
+            document.getElementById(idCheckbox).addEventListener('change', (e) => {
+                map.setLayoutProperty(
+                    idLayer,
+                    'visibility',
+                    e.target.checked ? 'visible' : 'none'
+                );
+            });
+        };
+
+        // Colleghiamo i checkbox ai rispettivi layer
+        toggleLayer('check-confini', 'livello-lessinia');
+        toggleLayer('check-grotte', 'livello-grotte');
+        toggleLayer('check-picnic', 'livello-picnic');
+
+        // GESTIONE CLICK
         map.on('click', (e) => {
             const features = map.queryRenderedFeatures(e.point, {
                 layers: ['livello-grotte', 'livello-lessinia', 'livello-picnic']
             });
             if (!features.length) return;
-            const feature = features[0];
-            const nome = feature.properties.name || "Senza nome";
-            
+            const props = features[0].properties;
             new maplibregl.Popup()
                 .setLngLat(e.lngLat)
-                .setHTML(`<strong>${nome}</strong>`)
+                .setHTML(`<strong>${props.name || "Senza nome"}</strong>`)
                 .addTo(map);
         });
 
-        // Cambio cursore per i livelli interattivi
-        map.on('mouseenter', 'livello-grotte', () => { map.getCanvas().style.cursor = 'pointer'; });
-        map.on('mouseleave', 'livello-grotte', () => { map.getCanvas().style.cursor = ''; });
-        map.on('mouseenter', 'livello-picnic', () => { map.getCanvas().style.cursor = 'pointer'; });
-        map.on('mouseleave', 'livello-picnic', () => { map.getCanvas().style.cursor = ''; });
+        // Cambio cursore
+        const layers = ['livello-grotte', 'livello-picnic'];
+        layers.forEach(layer => {
+            map.on('mouseenter', layer, () => { map.getCanvas().style.cursor = 'pointer'; });
+            map.on('mouseleave', layer, () => { map.getCanvas().style.cursor = ''; });
+        });
     </script>
 </body>
 </html>
