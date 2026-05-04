@@ -17,26 +17,43 @@
     <script>
         const map = new maplibregl.Map({
             container: 'map',
-            // Stile di base (gratuito senza chiavi per ora)
             style: 'https://api.maptiler.com/maps/019df264-fca7-7199-9a67-7feac9277de9/style.json?key=XdbX0zpBOhaNfNO40BUA', 
             center: [11.02, 45.62], // Coordinate Lessinia
             zoom: 11
         });
 
         map.on('load', () => {
-            // Qui carichiamo il TUO file che hai appena caricato su GitHub
+            // --- LIVELLO 1: CONFINI LESSINIA ---
             map.addSource('dati-lessinia', {
                 'type': 'geojson',
-                'data': './Confini Lessinia.geojson' // <-- SOSTITUISCI CON IL NOME ESATTO DEL TUO FILE
+                'data': './Confini Lessinia.geojson'
             });
 
             map.addLayer({
                 'id': 'livello-lessinia',
-                'type': 'line', // 'line' per i sentieri, 'circle' per i punti
+                'type': 'line',
                 'source': 'dati-lessinia',
                 'paint': {
-                    'line-color': '#e63946',
+                    'line-color': '#e63946', // Rosso per i confini
                     'line-width': 3
+                }
+            });
+
+            // --- LIVELLO 2: GROTTE LESSINIA ---
+            map.addSource('grotte-lessinia', {
+                'type': 'geojson',
+                'data': './Grotte_Lessinia.geojson' 
+            });
+
+            map.addLayer({
+                'id': 'livello-grotte',
+                'type': 'circle', // Usiamo 'circle' perché le grotte sono punti
+                'source': 'grotte-lessinia',
+                'paint': {
+                    'circle-radius': 5,
+                    'circle-color': '#7b2cbf', // Viola scuro per le grotte
+                    'circle-stroke-width': 2,
+                    'circle-stroke-color': '#ffffff'
                 }
             });
         });
