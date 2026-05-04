@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-27T14:17:25Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232511523",
+        "historic": "memorial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9786305,
+              45.6838334
+            ],
+            [
+              10.9784984,
+              45.683811
+            ],
+            [
+              10.9782445,
+              45.6837241
+            ],
+            [
+              10.9784418,
+              45.6834809
+            ],
+            [
+              10.9786906,
+              45.6835744
+            ],
+            [
+              10.978772,
+              45.6836167
+            ],
+            [
+              10.9787469,
+              45.6837167
+            ],
+            [
+              10.9787089,
+              45.6837553
+            ],
+            [
+              10.9786877,
+              45.6837764
+            ],
+            [
+              10.9786305,
+              45.6838334
+            ]
+          ]
+        ]
+      },
+      "id": "way/232511523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2431087335",
+        "historic": "memorial",
+        "name": "Altare a Bepi Bertagnoli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1593801,
+          45.678167
+        ]
+      },
+      "id": "node/2431087335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5927139297",
+        "disused": "yes",
+        "historic": "yes",
+        "military": "bunker",
+        "start_date": "1915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0830893,
+          45.6992907
+        ]
+      },
+      "id": "node/5927139297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5927139298",
+        "disused": "yes",
+        "historic": "yes",
+        "military": "bunker",
+        "start_date": "1915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0818684,
+          45.6999041
+        ]
+      },
+      "id": "node/5927139298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5927139323",
+        "disused": "yes",
+        "historic": "yes",
+        "military": "bunker",
+        "start_date": "1915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0853274,
+          45.6978877
+        ]
+      },
+      "id": "node/5927139323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5927139337",
+        "bunker_type": "observation",
+        "military": "bunker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0880132,
+          45.6967212
+        ]
+      },
+      "id": "node/5927139337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5928522264",
+        "disused": "yes",
+        "historic": "yes",
+        "military": "bunker",
+        "start_date": "1915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0797428,
+          45.7011189
+        ]
+      },
+      "id": "node/5928522264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5928522278",
+        "disused": "yes",
+        "historic": "yes",
+        "military": "bunker",
+        "start_date": "1915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0877785,
+          45.6969207
+        ]
+      },
+      "id": "node/5928522278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7509278396",
+        "historic": "memorial",
+        "material": "stone",
+        "memorial": "plaque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.005029,
+          45.6785778
+        ]
+      },
+      "id": "node/7509278396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7509295534",
+        "historic": "memorial",
+        "material": "stone",
+        "memorial": "plaque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0005928,
+          45.671277
+        ]
+      },
+      "id": "node/7509295534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10089229602",
+        "description": "Croce in pietra bianca",
+        "historic": "memorial",
+        "inscription": "CM 2021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1599341,
+          45.6521371
+        ]
+      },
+      "id": "node/10089229602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12923045520",
+        "historic": "yes",
+        "military": "bunker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9512924,
+          45.6686754
+        ]
+      },
+      "id": "node/12923045520"
+    }
+  ]
+}

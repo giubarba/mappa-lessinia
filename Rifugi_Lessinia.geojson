@@ -1,0 +1,466 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-27T14:10:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38496520",
+        "addr:city": "Erbezzo",
+        "addr:country": "IT",
+        "addr:place": "Malga Lessinia",
+        "addr:postcode": "37020",
+        "amenity": "restaurant",
+        "building": "yes",
+        "ele": "1616",
+        "name": "Malga Lessinia",
+        "phone": "+39 0335 257339",
+        "tourism": "alpine_hut",
+        "website": "https://www.rifugiomalgalessinia.it/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0078954,
+              45.6961855
+            ],
+            [
+              11.0079516,
+              45.6962654
+            ],
+            [
+              11.0079878,
+              45.6962529
+            ],
+            [
+              11.0080663,
+              45.6963643
+            ],
+            [
+              11.008027,
+              45.6963777
+            ],
+            [
+              11.0080567,
+              45.6964198
+            ],
+            [
+              11.0079629,
+              45.6964521
+            ],
+            [
+              11.0077984,
+              45.6962189
+            ],
+            [
+              11.0078954,
+              45.6961855
+            ]
+          ]
+        ]
+      },
+      "id": "way/38496520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/87793180",
+        "addr:city": "Giazza",
+        "addr:housenumber": "1",
+        "addr:street": "Via Revolto di sopra 1336 m",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "diet:omnivore": "yes",
+        "ele": "1336",
+        "name": "Rifugio Revolto",
+        "phone": "+39 045 7847039",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1189645,
+              45.6956032
+            ],
+            [
+              11.1188525,
+              45.6955685
+            ],
+            [
+              11.1188393,
+              45.6953677
+            ],
+            [
+              11.1189646,
+              45.6953635
+            ],
+            [
+              11.1189712,
+              45.6955399
+            ],
+            [
+              11.1189564,
+              45.6955413
+            ],
+            [
+              11.1189645,
+              45.6956032
+            ]
+          ]
+        ]
+      },
+      "id": "way/87793180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/118382776",
+        "building": "yes",
+        "check_date": "2024-05-14",
+        "ele": "1765",
+        "email": "info@rifugiocastelberto.it",
+        "name": "Rifugio Castelberto",
+        "phone": "+39 045 5116652",
+        "tourism": "alpine_hut",
+        "website": "https://www.rifugiocastelberto.it/",
+        "wikimedia_commons": "File:Rifugio Castelberto.jpg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.01717,
+              45.7183948
+            ],
+            [
+              11.0171331,
+              45.7183107
+            ],
+            [
+              11.0173567,
+              45.7182622
+            ],
+            [
+              11.0173889,
+              45.7183495
+            ],
+            [
+              11.01717,
+              45.7183948
+            ]
+          ]
+        ]
+      },
+      "id": "way/118382776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/139001794",
+        "building": "yes",
+        "ele": "1499",
+        "name": "Malga Terrazzo",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1277363,
+              45.6730866
+            ],
+            [
+              11.1278747,
+              45.6731327
+            ],
+            [
+              11.1278397,
+              45.6731839
+            ],
+            [
+              11.1277013,
+              45.6731378
+            ],
+            [
+              11.1277363,
+              45.6730866
+            ]
+          ]
+        ]
+      },
+      "id": "way/139001794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143205782",
+        "building": "yes",
+        "ele": "1655",
+        "name": "Podestaria",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0469931,
+              45.7010867
+            ],
+            [
+              11.0469165,
+              45.7009788
+            ],
+            [
+              11.0469806,
+              45.7009537
+            ],
+            [
+              11.0468852,
+              45.7008159
+            ],
+            [
+              11.0470045,
+              45.7007743
+            ],
+            [
+              11.0471801,
+              45.7010215
+            ],
+            [
+              11.0469931,
+              45.7010867
+            ]
+          ]
+        ]
+      },
+      "id": "way/143205782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/179671205",
+        "building": "yes",
+        "internet_access": "no",
+        "name": "Malga Derocon",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0099617,
+              45.6687414
+            ],
+            [
+              11.0099464,
+              45.668619
+            ],
+            [
+              11.0100267,
+              45.6686141
+            ],
+            [
+              11.0100419,
+              45.6687365
+            ],
+            [
+              11.0099617,
+              45.6687414
+            ]
+          ]
+        ]
+      },
+      "id": "way/179671205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/219907777",
+        "addr:city": "Crespadoro",
+        "addr:postcode": "36070",
+        "addr:street": "Località La Piatta",
+        "building": "yes",
+        "ele": "1225",
+        "email": "lapiatta@libero.it",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Rifugio Bepi Bertagnoli",
+        "phone": "+39 04441770286",
+        "smoking": "no",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugiobertagnoli.it",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1653118,
+              45.6732505
+            ],
+            [
+              11.1653591,
+              45.6733303
+            ],
+            [
+              11.1652988,
+              45.6733467
+            ],
+            [
+              11.1652015,
+              45.6733736
+            ],
+            [
+              11.1652067,
+              45.673383
+            ],
+            [
+              11.1651451,
+              45.6734
+            ],
+            [
+              11.165096,
+              45.6733064
+            ],
+            [
+              11.1652203,
+              45.6732731
+            ],
+            [
+              11.1653118,
+              45.6732505
+            ]
+          ]
+        ]
+      },
+      "id": "way/219907777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336780532",
+        "addr:country": "IT",
+        "addr:place": "San Giorgio",
+        "check_date": "2024-08-10",
+        "ele": "1561",
+        "email": "info@malgamalera.it",
+        "name": "Rifugio Malga Malera",
+        "phone": "+39 3421714873",
+        "tourism": "alpine_hut",
+        "website": "https://www.malgamalera.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0956502,
+          45.6777932
+        ]
+      },
+      "id": "node/4336780532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4517139585",
+        "contact:facebook": "https://www.instagram.com/rifugio_montetomba/",
+        "ele": "1766",
+        "email": "rifugiomontetomba@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Rifugio Monte Tomba",
+        "phone": "+393470707021",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0570755,
+          45.6921617
+        ]
+      },
+      "id": "node/4517139585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5983354623",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "ele": "1476",
+        "indoor_seating": "yes",
+        "name": "Rifugio Valbella",
+        "outdoor_seating": "yes",
+        "phone": "+39 349 3618702",
+        "tourism": "alpine_hut",
+        "website": "https://www.rifugiovalbella.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9942044,
+          45.6834326
+        ]
+      },
+      "id": "node/5983354623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6646316110",
+        "addr:city": "Selva di Progno",
+        "addr:country": "IT",
+        "addr:housenumber": "9",
+        "addr:postcode": "37030",
+        "addr:street": "Via Revolto di Sotto",
+        "amenity": "restaurant",
+        "ele": "1151",
+        "name": "Rifugio Boschetto",
+        "phone": "+39 045 7847005",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1206545,
+          45.6889136
+        ]
+      },
+      "id": "node/6646316110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7728654571",
+        "addr:city": "Bosco Chiesanuova",
+        "addr:postcode": "37021",
+        "addr:street": "Località Monte Tomba",
+        "elevation": "1766 m",
+        "email": "info@rifugioprimaneve.it",
+        "name": "Rifugio Primaneve",
+        "phone": "+393271799535",
+        "tourism": "alpine_hut",
+        "website": "http://www.rifugioprimaneve.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0577452,
+          45.6920135
+        ]
+      },
+      "id": "node/7728654571"
+    }
+  ]
+}

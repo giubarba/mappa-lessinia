@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-27T14:18:30Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6442096293",
+        "access": "yes",
+        "addr:city": "Bosco Chiesanuova",
+        "addr:country": "IT",
+        "addr:place": "Malga San Giorgio",
+        "addr:postcode": "37021",
+        "addr:street": "Malga San Giorgio",
+        "defibrillator:location": "L'apparato è installato a destra dell'ingresso del ristorante Al Caminetto.",
+        "emergency": "defibrillator",
+        "indoor": "no",
+        "name": "Ristorante Al Caminetto",
+        "opening_hours": "24/7",
+        "operator": "Comune di Bosco Chiesanuova",
+        "wikimedia_commons": "File:DAE_San_Giorgio.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0862049,
+          45.6856043
+        ]
+      },
+      "id": "node/6442096293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6636558007",
+        "addr:city": "Selva di Progno",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:place": "Revolto",
+        "addr:postcode": "37030",
+        "addr:street": "Via Revolto di Sopra",
+        "defibrillator:location": "L'apparato è installato all'interno dietro il bancone.",
+        "emergency": "defibrillator",
+        "indoor": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1189212,
+          45.6955337
+        ]
+      },
+      "id": "node/6636558007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12840659605",
+        "access": "yes",
+        "emergency": "defibrillator"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9179184,
+          45.6095325
+        ]
+      },
+      "id": "node/12840659605"
+    }
+  ]
+}

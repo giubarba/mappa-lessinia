@@ -1,0 +1,936 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-27T14:06:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/409695291",
+        "access": "yes",
+        "alt_ref": "GPS n° 1501",
+        "ele": "1467",
+        "fee": "no",
+        "name": "Grotta del Ciabattino",
+        "natural": "cave_entrance",
+        "ref": "0081 V VR",
+        "wikidata": "Q113969271"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9492054,
+          45.6768472
+        ]
+      },
+      "id": "node/409695291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/521825132",
+        "name": "Bella Lasta",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1079578,
+          45.6889536
+        ]
+      },
+      "id": "node/521825132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/886568697",
+        "alt_ref": "GPS n° 0001",
+        "ele": "1483",
+        "name": "Spluga della Preta",
+        "natural": "cave_entrance",
+        "ref": "0001 V VR",
+        "wikidata": "Q3966943",
+        "wikipedia": "it:Spluga della Preta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9518668,
+          45.6780849
+        ]
+      },
+      "id": "node/886568697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1194344168",
+        "ele": "1711",
+        "name": "Buso del Vallon",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1030786,
+          45.6923095
+        ]
+      },
+      "id": "node/1194344168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2318067285",
+        "name": "Covolo di Camposilvano",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0927124,
+          45.6265768
+        ]
+      },
+      "id": "node/2318067285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2443042220",
+        "name": "Speluga del Martin",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9884228,
+          45.6891973
+        ]
+      },
+      "id": "node/2443042220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570066802",
+        "name": "Grotta delle tette more",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.918108,
+          45.6117238
+        ]
+      },
+      "id": "node/3570066802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3570080117",
+        "name": "Grotta preistorica",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9158079,
+          45.6079851
+        ]
+      },
+      "id": "node/3570080117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4229837003",
+        "fee": "no",
+        "name": "Covoli di Velo",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1208922,
+          45.6081682
+        ]
+      },
+      "id": "node/4229837003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603106014",
+        "access": "no",
+        "name": "Abisso dei Modi",
+        "natural": "cave_entrance",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0177889,
+          45.6966607
+        ]
+      },
+      "id": "node/6603106014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7837178804",
+        "access": "no",
+        "name": "Buco 2° di Ausele",
+        "natural": "cave_entrance",
+        "ref": "1561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0245147,
+          45.6607159
+        ]
+      },
+      "id": "node/7837178804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7837178805",
+        "access": "no",
+        "name": "Buco 1° di Ausele",
+        "natural": "cave_entrance",
+        "ref": "1562"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0249379,
+          45.6612089
+        ]
+      },
+      "id": "node/7837178805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7882810754",
+        "name": "Grotta di Roccopiano",
+        "natural": "cave_entrance",
+        "ref": "148"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9991813,
+          45.6876186
+        ]
+      },
+      "id": "node/7882810754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7882810755",
+        "name": "Abisso di Roccopiano",
+        "natural": "cave_entrance",
+        "ref": "1421"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0008429,
+          45.6875881
+        ]
+      },
+      "id": "node/7882810755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7882810759",
+        "name": "Abisso Cabianca",
+        "natural": "cave_entrance",
+        "ref": "131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0003185,
+          45.6886116
+        ]
+      },
+      "id": "node/7882810759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7945899363",
+        "access": "no",
+        "name": "Busa da neve del Vallon Bassa",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0998312,
+          45.6897499
+        ]
+      },
+      "id": "node/7945899363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7945899369",
+        "access": "no",
+        "name": "Busa da neve del Vallon Media",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1017382,
+          45.6913987
+        ]
+      },
+      "id": "node/7945899369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7945911212",
+        "access": "no",
+        "name": "Busa da neve del Vallon Alta",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1024946,
+          45.6920619
+        ]
+      },
+      "id": "node/7945911212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7945911253",
+        "access": "no",
+        "name": "Spluga di Castel Malera",
+        "natural": "cave_entrance",
+        "ref": "1428"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.100086,
+          45.6818908
+        ]
+      },
+      "id": "node/7945911253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8094008133",
+        "access": "no",
+        "name": "Grotta Campo Rotondo di Sopra",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0503846,
+          45.6864053
+        ]
+      },
+      "id": "node/8094008133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8094008134",
+        "access": "no",
+        "name": "Pozzo Malga Campo rotondo di Sopra",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0505885,
+          45.6865159
+        ]
+      },
+      "id": "node/8094008134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8094008141",
+        "access": "no",
+        "name": "Pozzo Folignano di Fondo",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0311519,
+          45.6821042
+        ]
+      },
+      "id": "node/8094008141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9154106937",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9365249,
+          45.6732472
+        ]
+      },
+      "id": "node/9154106937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9154106943",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9362701,
+          45.6733203
+        ]
+      },
+      "id": "node/9154106943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9484604317",
+        "name": "Buso dell'Arena",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0935989,
+          45.6664169
+        ]
+      },
+      "id": "node/9484604317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9744101365",
+        "ele": "580.0",
+        "length": "106.0",
+        "name": "La pesciaia di Bolca",
+        "natural": "cave_entrance",
+        "ref": "1448",
+        "relief_date": "21/05/77",
+        "visitability_class": "2.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2221389,
+          45.5999167
+        ]
+      },
+      "id": "node/9744101365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9744101372",
+        "ele": "575.0",
+        "length": "106.0",
+        "name": "Pesciaia vecchia",
+        "natural": "cave_entrance",
+        "ref": "5356",
+        "relief_date": "11/06/94",
+        "visitability_class": "2.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2212602,
+          45.5985713
+        ]
+      },
+      "id": "node/9744101372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9744101373",
+        "ele": "580.0",
+        "length": "30.0",
+        "name": "Grotta Postale",
+        "natural": "cave_entrance",
+        "ref": "4774",
+        "relief_date": "1990-10-19",
+        "visitability_class": "1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.22435,
+          45.60315
+        ]
+      },
+      "id": "node/9744101373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9807500418",
+        "ele": "850.0",
+        "length": "11.0",
+        "name": "Buso in Parete",
+        "natural": "cave_entrance",
+        "ref": "2258",
+        "relief_date": "1982-10-17",
+        "visitability_class": "1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1698409,
+          45.6604074
+        ]
+      },
+      "id": "node/9807500418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460761",
+        "ele": "1650",
+        "length": "12",
+        "name": "Buco di Fraselle",
+        "natural": "cave_entrance",
+        "ref": "5704"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1449056,
+          45.6839833
+        ]
+      },
+      "id": "node/10602460761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460766",
+        "ele": "1655",
+        "length": "17",
+        "name": "Voragine del Passo",
+        "natural": "cave_entrance",
+        "note": "GPS 3507",
+        "ref": "1543"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1568056,
+          45.6871667
+        ]
+      },
+      "id": "node/10602460766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460767",
+        "ele": "1939",
+        "length": "12",
+        "name": "Buso di Cima Tre Croci",
+        "natural": "cave_entrance",
+        "ref": "1708"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1407389,
+          45.6923167
+        ]
+      },
+      "id": "node/10602460767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460771",
+        "ele": "1825",
+        "length": "18",
+        "name": "Abisso Baionetta",
+        "natural": "cave_entrance",
+        "ref": "5703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1379611,
+          45.6867611
+        ]
+      },
+      "id": "node/10602460771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460774",
+        "ele": "1473",
+        "length": "52",
+        "name": "Grotta dell'Oro",
+        "natural": "cave_entrance",
+        "note": "GPS 1988",
+        "ref": "168"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1565833,
+          45.6603611
+        ]
+      },
+      "id": "node/10602460774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460777",
+        "ele": "1130",
+        "length": "1045",
+        "name": "Grotta del Berclie - Perloch",
+        "natural": "cave_entrance",
+        "note": "GPS 0003",
+        "ref": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1372222,
+          45.6565278
+        ]
+      },
+      "id": "node/10602460777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460781",
+        "ele": "1121",
+        "length": "26",
+        "name": "Sealagankùval - Covolo delle Genti Beate",
+        "natural": "cave_entrance",
+        "note": "GPS 2825",
+        "ref": "8221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1290556,
+          45.6618333
+        ]
+      },
+      "id": "node/10602460781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460782",
+        "ele": "1197",
+        "length": "368",
+        "name": "Schefar Coval - Abisso Angelo Pasa",
+        "natural": "cave_entrance",
+        "note": "GPS 0004",
+        "ref": "1407"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1258611,
+          45.6612778
+        ]
+      },
+      "id": "node/10602460782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460783",
+        "ele": "970",
+        "length": "16",
+        "name": "Baizze Lon Loch",
+        "natural": "cave_entrance",
+        "note": "GPS 2547",
+        "ref": "8502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1385278,
+          45.6616667
+        ]
+      },
+      "id": "node/10602460783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460784",
+        "ele": "1170",
+        "length": "42",
+        "name": "Grotta Tif-Tal",
+        "natural": "cave_entrance",
+        "ref": "6239"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1474056,
+          45.6553722
+        ]
+      },
+      "id": "node/10602460784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460786",
+        "ele": "1540",
+        "length": "7",
+        "name": "Riparo del Passo",
+        "natural": "cave_entrance",
+        "ref": "4181"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1562944,
+          45.6773167
+        ]
+      },
+      "id": "node/10602460786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10602460787",
+        "ele": "1625",
+        "length": "13",
+        "name": "Kaput delle Bee",
+        "natural": "cave_entrance",
+        "ref": "5916"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1549056,
+          45.6776778
+        ]
+      },
+      "id": "node/10602460787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10839316308",
+        "name": "Grotta della Trincee",
+        "natural": "cave_entrance",
+        "ref": "1417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1000954,
+          45.6583567
+        ]
+      },
+      "id": "node/10839316308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10839316312",
+        "name": "Buso Botteghe",
+        "natural": "cave_entrance",
+        "ref": "1450"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1029992,
+          45.6628012
+        ]
+      },
+      "id": "node/10839316312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10839316313",
+        "name": "Buco della Condotta 1",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.103147,
+          45.6649299
+        ]
+      },
+      "id": "node/10839316313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10839316320",
+        "name": "Pozzo di Monte Grolla",
+        "natural": "cave_entrance",
+        "ref": "1414"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1032461,
+          45.6666093
+        ]
+      },
+      "id": "node/10839316320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11264710307",
+        "ele": "1547",
+        "name": "Spluga del Cippo",
+        "natural": "cave_entrance",
+        "ref": "2585 V VR",
+        "visible:ref": "GPS n° 0119"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9432755,
+          45.6730494
+        ]
+      },
+      "id": "node/11264710307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11300044452",
+        "name": "Grotta della Sacchetta",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9151215,
+          45.6104693
+        ]
+      },
+      "id": "node/11300044452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12496166026",
+        "name": "Grotta di Campore",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.916934,
+          45.590768
+        ]
+      },
+      "id": "node/12496166026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12920937815",
+        "name": "Trincea con galleria",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1072147,
+          45.685796
+        ]
+      },
+      "id": "node/12920937815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13766119335",
+        "name": "Coalo del Diaolo",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9141577,
+          45.5862241
+        ]
+      },
+      "id": "node/13766119335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13766119336",
+        "name": "Coalo del Buso Streto",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9143141,
+          45.5859966
+        ]
+      },
+      "id": "node/13766119336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13766181315",
+        "name": "Spluga del'Ocio",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.912403,
+          45.587522
+        ]
+      },
+      "id": "node/13766181315"
+    }
+  ]
+}

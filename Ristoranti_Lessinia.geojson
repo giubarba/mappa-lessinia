@@ -1,0 +1,572 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-27T14:09:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38496520",
+        "addr:city": "Erbezzo",
+        "addr:country": "IT",
+        "addr:place": "Malga Lessinia",
+        "addr:postcode": "37020",
+        "amenity": "restaurant",
+        "building": "yes",
+        "ele": "1616",
+        "name": "Malga Lessinia",
+        "phone": "+39 0335 257339",
+        "tourism": "alpine_hut",
+        "website": "https://www.rifugiomalgalessinia.it/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0078954,
+              45.6961855
+            ],
+            [
+              11.0079516,
+              45.6962654
+            ],
+            [
+              11.0079878,
+              45.6962529
+            ],
+            [
+              11.0080663,
+              45.6963643
+            ],
+            [
+              11.008027,
+              45.6963777
+            ],
+            [
+              11.0080567,
+              45.6964198
+            ],
+            [
+              11.0079629,
+              45.6964521
+            ],
+            [
+              11.0077984,
+              45.6962189
+            ],
+            [
+              11.0078954,
+              45.6961855
+            ]
+          ]
+        ]
+      },
+      "id": "way/38496520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/87793180",
+        "addr:city": "Giazza",
+        "addr:housenumber": "1",
+        "addr:street": "Via Revolto di sopra 1336 m",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "diet:omnivore": "yes",
+        "ele": "1336",
+        "name": "Rifugio Revolto",
+        "phone": "+39 045 7847039",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.1189645,
+              45.6956032
+            ],
+            [
+              11.1188525,
+              45.6955685
+            ],
+            [
+              11.1188393,
+              45.6953677
+            ],
+            [
+              11.1189646,
+              45.6953635
+            ],
+            [
+              11.1189712,
+              45.6955399
+            ],
+            [
+              11.1189564,
+              45.6955413
+            ],
+            [
+              11.1189645,
+              45.6956032
+            ]
+          ]
+        ]
+      },
+      "id": "way/87793180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117104340",
+        "amenity": "restaurant",
+        "building": "retail",
+        "ele": "1550",
+        "name": "Rifugio Bocca di Selva"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0498675,
+              45.6768585
+            ],
+            [
+              11.0499427,
+              45.676822
+            ],
+            [
+              11.0500797,
+              45.6769598
+            ],
+            [
+              11.050108,
+              45.6769916
+            ],
+            [
+              11.049939,
+              45.6770699
+            ],
+            [
+              11.04991,
+              45.6770393
+            ],
+            [
+              11.0500046,
+              45.6769963
+            ],
+            [
+              11.0498675,
+              45.6768585
+            ]
+          ]
+        ]
+      },
+      "id": "way/117104340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/121251462",
+        "addr:city": "Bosco Chiesanuova",
+        "addr:postcode": "37021",
+        "addr:street": "Strada Provinciale 6",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "email": "info@rifugiobranchetto.it",
+        "name": "Rifugio Branchetto",
+        "opening_hours": "Su-Mo 09:30-18:00; Th 09:30-18:00; Fr-Sa 09:30-22:00",
+        "phone": "+39 045 678 4134; +39 347 466 9315",
+        "rooms": "12",
+        "tourism": "hotel",
+        "website": "https://www.rifugiobranchetto.it/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0629512,
+              45.6752456
+            ],
+            [
+              11.0629171,
+              45.6752344
+            ],
+            [
+              11.0628746,
+              45.6752977
+            ],
+            [
+              11.0627326,
+              45.6752512
+            ],
+            [
+              11.062911,
+              45.6749853
+            ],
+            [
+              11.0630871,
+              45.675043
+            ],
+            [
+              11.0629512,
+              45.6752456
+            ]
+          ]
+        ]
+      },
+      "id": "way/121251462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/216672642",
+        "addr:city": "Sant'Anna d'Alfaedo",
+        "addr:country": "IT",
+        "addr:housenumber": "1",
+        "addr:place": "Località Ponte Di Veja",
+        "addr:postcode": "37020",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "italian",
+        "email": "info@PontediVeja.com",
+        "name": "Trattoria Ponte di Veja",
+        "phone": "+39 045 7545048",
+        "website": "http://www.pontediveja.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9699509,
+              45.6077299
+            ],
+            [
+              10.9698767,
+              45.6075216
+            ],
+            [
+              10.969913,
+              45.6074352
+            ],
+            [
+              10.9701186,
+              45.6074154
+            ],
+            [
+              10.9701573,
+              45.6075109
+            ],
+            [
+              10.9702041,
+              45.6075016
+            ],
+            [
+              10.9702612,
+              45.6076713
+            ],
+            [
+              10.9699509,
+              45.6077299
+            ]
+          ]
+        ]
+      },
+      "id": "way/216672642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/218452414",
+        "amenity": "restaurant",
+        "building": "yes",
+        "indoor_seating": "no",
+        "name": "Malga Preta di sotto",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.9540462,
+              45.6770747
+            ],
+            [
+              10.9539523,
+              45.6770404
+            ],
+            [
+              10.9540748,
+              45.676877
+            ],
+            [
+              10.9541687,
+              45.6769113
+            ],
+            [
+              10.9540462,
+              45.6770747
+            ]
+          ]
+        ]
+      },
+      "id": "way/218452414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/219473233",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Ai Tracchi",
+        "phone": "+39 045 7050153",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.054208,
+              45.6672895
+            ],
+            [
+              11.054201,
+              45.6671825
+            ],
+            [
+              11.0542393,
+              45.6671795
+            ],
+            [
+              11.0542357,
+              45.6671313
+            ],
+            [
+              11.0545868,
+              45.6671206
+            ],
+            [
+              11.0545999,
+              45.6672758
+            ],
+            [
+              11.054208,
+              45.6672895
+            ]
+          ]
+        ]
+      },
+      "id": "way/219473233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/219473278",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Malga Moscarda"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.0494455,
+              45.6708208
+            ],
+            [
+              11.0493596,
+              45.6708047
+            ],
+            [
+              11.0494308,
+              45.6706197
+            ],
+            [
+              11.0495168,
+              45.6706358
+            ],
+            [
+              11.0494455,
+              45.6708208
+            ]
+          ]
+        ]
+      },
+      "id": "way/219473278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1231557542",
+        "addr:city": "Fumane",
+        "addr:housenumber": "12",
+        "addr:postcode": "37022",
+        "addr:street": "via ca gottolo",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Trattoria Chesini",
+        "phone": "+390457701867"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9070101,
+          45.5896637
+        ]
+      },
+      "id": "node/1231557542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1655350973",
+        "amenity": "restaurant",
+        "name": "Genzianella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0858748,
+          45.6870819
+        ]
+      },
+      "id": "node/1655350973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336780530",
+        "addr:city": "Bosco Chiesanuova",
+        "addr:country": "IT",
+        "addr:housenumber": "183",
+        "addr:place": "Malga San Giorgio",
+        "addr:postcode": "37021",
+        "amenity": "restaurant",
+        "check_date": "2024-08-10",
+        "cuisine": "regional",
+        "email": "ilcaminetto_sangiorgio@hotmail.it",
+        "name": "Al Caminetto",
+        "operator": "Laiti Daniel",
+        "outdoor_seating": "no",
+        "phone": "+39 348 702839",
+        "website": "http://www.alcaminettolessinia.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0861364,
+          45.6856243
+        ]
+      },
+      "id": "node/4336780530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5860887607",
+        "amenity": "restaurant",
+        "name": "Agriturismo Malga Campolevà di Sotto",
+        "phone": "+39 340 415 7182"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0778692,
+          45.6855125
+        ]
+      },
+      "id": "node/5860887607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5983354623",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "ele": "1476",
+        "indoor_seating": "yes",
+        "name": "Rifugio Valbella",
+        "outdoor_seating": "yes",
+        "phone": "+39 349 3618702",
+        "tourism": "alpine_hut",
+        "website": "https://www.rifugiovalbella.it/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9942044,
+          45.6834326
+        ]
+      },
+      "id": "node/5983354623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6646316110",
+        "addr:city": "Selva di Progno",
+        "addr:country": "IT",
+        "addr:housenumber": "9",
+        "addr:postcode": "37030",
+        "addr:street": "Via Revolto di Sotto",
+        "amenity": "restaurant",
+        "ele": "1151",
+        "name": "Rifugio Boschetto",
+        "phone": "+39 045 7847005",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1206545,
+          45.6889136
+        ]
+      },
+      "id": "node/6646316110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12449682133",
+        "amenity": "restaurant",
+        "name": "Ristorante Malga Campegno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0862752,
+          45.6820801
+        ]
+      },
+      "id": "node/12449682133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12765793295",
+        "amenity": "fast_food",
+        "name": "Ristoro La Cornetta",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9674601,
+          45.6788827
+        ]
+      },
+      "id": "node/12765793295"
+    }
+  ]
+}

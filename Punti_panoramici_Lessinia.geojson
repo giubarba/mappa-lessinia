@@ -1,0 +1,371 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-27T14:15:21Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/409624273",
+        "ele": "1545",
+        "man_made": "cross",
+        "name": "Corno d'Aquilio",
+        "natural": "peak",
+        "summit:cross": "yes",
+        "tourism": "viewpoint",
+        "wikidata": "Q17628211",
+        "wikipedia": "it:Corno d'Aquilio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.943048,
+          45.671456
+        ]
+      },
+      "id": "node/409624273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/765960179",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.058011,
+          45.706297
+        ]
+      },
+      "id": "node/765960179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/765960199",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0574629,
+          45.7115634
+        ]
+      },
+      "id": "node/765960199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/958465599",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9163392,
+          45.6091295
+        ]
+      },
+      "id": "node/958465599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/958465610",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9176621,
+          45.6081347
+        ]
+      },
+      "id": "node/958465610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/958465626",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9177451,
+          45.6081512
+        ]
+      },
+      "id": "node/958465626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/958465705",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9175902,
+          45.6080183
+        ]
+      },
+      "id": "node/958465705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1287800092",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9350306,
+          45.6747213
+        ]
+      },
+      "id": "node/1287800092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1368265734",
+        "ele": "1535",
+        "name": "Corno Mozzo",
+        "natural": "peak",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9600642,
+          45.6710901
+        ]
+      },
+      "id": "node/1368265734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1507757906",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1376507,
+          45.682273
+        ]
+      },
+      "id": "node/1507757906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1989319572",
+        "name": "Osservatorio",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0976093,
+          45.6928642
+        ]
+      },
+      "id": "node/1989319572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403415038",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1581314,
+          45.6871658
+        ]
+      },
+      "id": "node/2403415038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403415040",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1573514,
+          45.6872064
+        ]
+      },
+      "id": "node/2403415040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403415066",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1440387,
+          45.68744
+        ]
+      },
+      "id": "node/2403415066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5170715588",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1394431,
+          45.6966684
+        ]
+      },
+      "id": "node/5170715588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5844043389",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9430224,
+          45.6714714
+        ]
+      },
+      "id": "node/5844043389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6407707783",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9225398,
+          45.6717657
+        ]
+      },
+      "id": "node/6407707783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9235950450",
+        "direction": "180",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9159088,
+          45.5908111
+        ]
+      },
+      "id": "node/9235950450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11125641754",
+        "direction": "210",
+        "tourism": "viewpoint",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9179747,
+          45.6094622
+        ]
+      },
+      "id": "node/11125641754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11264820109",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9365316,
+          45.6733653
+        ]
+      },
+      "id": "node/11264820109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12150542969",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.158989,
+          45.6671618
+        ]
+      },
+      "id": "node/12150542969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12921754473",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0969683,
+          45.6841152
+        ]
+      },
+      "id": "node/12921754473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12966347121",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1619778,
+          45.6765668
+        ]
+      },
+      "id": "node/12966347121"
+    }
+  ]
+}

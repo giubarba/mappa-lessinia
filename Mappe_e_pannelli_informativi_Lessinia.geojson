@@ -1,0 +1,471 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-27T14:13:13Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/958465587",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9174933,
+          45.6073
+        ]
+      },
+      "id": "node/958465587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1357433547",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0509128,
+          45.6775684
+        ]
+      },
+      "id": "node/1357433547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1357434113",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0493636,
+          45.7028904
+        ]
+      },
+      "id": "node/1357434113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3677679847",
+        "hiking": "yes",
+        "information": "map",
+        "map_size": "site",
+        "map_type": "topo",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9780691,
+          45.6096108
+        ]
+      },
+      "id": "node/3677679847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6238090996",
+        "check_date": "2023-08-26",
+        "hiking": "yes",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0169402,
+          45.6498309
+        ]
+      },
+      "id": "node/6238090996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9154106936",
+        "board_type": "history",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9375001,
+          45.6728756
+        ]
+      },
+      "id": "node/9154106936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9154106958",
+        "board_type": "wildlife",
+        "information": "board",
+        "name": "Il Camoscio",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9392296,
+          45.6697095
+        ]
+      },
+      "id": "node/9154106958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9754669745",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Arbusti del Bosco termofilo",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9109662,
+          45.5900957
+        ]
+      },
+      "id": "node/9754669745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9754758973",
+        "board_type": "notice",
+        "information": "board",
+        "name": "Ponte Tibetano della Valsorda",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.915907,
+          45.5885289
+        ]
+      },
+      "id": "node/9754758973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9754799986",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Il Bosco Ceduo",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9128349,
+          45.5882034
+        ]
+      },
+      "id": "node/9754799986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9754799987",
+        "board_type": "history",
+        "information": "board",
+        "name": "La Carbonauia",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.913602,
+          45.5881564
+        ]
+      },
+      "id": "node/9754799987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9754799988",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Elogio dell'Edera",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.915955,
+          45.5882881
+        ]
+      },
+      "id": "node/9754799988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11264710290",
+        "information": "map",
+        "map_size": "site",
+        "map_type": "topo",
+        "name": "Parco Naturale Regionale Lessinia",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9516351,
+          45.6688296
+        ]
+      },
+      "id": "node/11264710290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11264710298",
+        "board_type": "history; map",
+        "information": "board",
+        "name": "Antica Strada della Liana",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9542958,
+          45.6738601
+        ]
+      },
+      "id": "node/11264710298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11264710310",
+        "board_type": "wildlife",
+        "information": "board",
+        "name": "L' Aquila",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9392595,
+          45.6686415
+        ]
+      },
+      "id": "node/11264710310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11266756957",
+        "board_type": "geology",
+        "description": "Carsismo a Ponte di Veja",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9697911,
+          45.6078424
+        ]
+      },
+      "id": "node/11266756957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11266756958",
+        "board_type": "history",
+        "description": "Colori dalla Preistoria",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9697911,
+          45.6078846
+        ]
+      },
+      "id": "node/11266756958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11266756959",
+        "board_type": "geology",
+        "description": "Grotta dell'Orso e Grotta dell'Acqua",
+        "information": "board",
+        "name": "La Grotta dell'Orso",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9706651,
+          45.6083541
+        ]
+      },
+      "id": "node/11266756959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11985878250",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1649861,
+          45.6732412
+        ]
+      },
+      "id": "node/11985878250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11985878252",
+        "information": "board",
+        "name": "L'Alta Via delle Vette Vicentine",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1652762,
+          45.672976
+        ]
+      },
+      "id": "node/11985878252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11985878253",
+        "information": "board",
+        "name": "Itinerario turistico Agno-Chiampo",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1652977,
+          45.6729948
+        ]
+      },
+      "id": "node/11985878253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11985878268",
+        "board_type": "history",
+        "information": "board",
+        "name": "L'Archeovia di Monte Campetto",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1663285,
+          45.6731856
+        ]
+      },
+      "id": "node/11985878268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12142094187",
+        "information": "board",
+        "operator": "Parco delle cascate di Molina",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.915775,
+          45.6086243
+        ]
+      },
+      "id": "node/12142094187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12920766180",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Pealda-Corno d'Aquilio",
+        "operator": "Parco naturale regionale della Lessinia",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9579651,
+          45.6847574
+        ]
+      },
+      "id": "node/12920766180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12920779902",
+        "information": "map",
+        "map_type": "topo",
+        "name": "Parco naturale regionale della Lessinia",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9618758,
+          45.6845962
+        ]
+      },
+      "id": "node/12920779902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12927804094",
+        "direction": "220",
+        "hiking": "yes",
+        "information": "map",
+        "map_size": "local",
+        "map_type": "topo",
+        "tourism": "information",
+        "wikimedia_commons": "File:Mappa_Valsorda.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.907624,
+          45.5897653
+        ]
+      },
+      "id": "node/12927804094"
+    }
+  ]
+}

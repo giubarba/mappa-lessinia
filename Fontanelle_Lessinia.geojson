@@ -1,0 +1,264 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-27T14:11:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1520878835",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1527159,
+          45.6815162
+        ]
+      },
+      "id": "node/1520878835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2187178181",
+        "amenity": "drinking_water",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1616562,
+          45.6542137
+        ]
+      },
+      "id": "node/2187178181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2313351358",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1651962,
+          45.6728104
+        ]
+      },
+      "id": "node/2313351358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403414508",
+        "amenity": "drinking_water",
+        "name": "Fontanella nel tronco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1551844,
+          45.6712887
+        ]
+      },
+      "id": "node/2403414508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403415019",
+        "amenity": "drinking_water",
+        "ele": "1466",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1533253,
+          45.6806961
+        ]
+      },
+      "id": "node/2403415019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2403415030",
+        "amenity": "drinking_water",
+        "drinking_water": "conditional",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1390287,
+          45.6822386
+        ]
+      },
+      "id": "node/2403415030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3090368061",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9704034,
+          45.6074974
+        ]
+      },
+      "id": "node/3090368061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3649266845",
+        "amenity": "fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1335937,
+          45.6567683
+        ]
+      },
+      "id": "node/3649266845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3716128215",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1659519,
+          45.674021
+        ]
+      },
+      "id": "node/3716128215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4281912909",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9793979,
+          45.6835303
+        ]
+      },
+      "id": "node/4281912909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4908807150",
+        "amenity": "drinking_water",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1299599,
+          45.6877184
+        ]
+      },
+      "id": "node/4908807150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5770905291",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1460389,
+          45.6671352
+        ]
+      },
+      "id": "node/5770905291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5865278586",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1390191,
+          45.6624941
+        ]
+      },
+      "id": "node/5865278586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6517795946",
+        "amenity": "drinking_water",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1214397,
+          45.6879605
+        ]
+      },
+      "id": "node/6517795946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6710974741",
+        "amenity": "drinking_water",
+        "ele": "1540",
+        "name": "Sorgente Mandriele",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1400567,
+          45.6780361
+        ]
+      },
+      "id": "node/6710974741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9654298235",
+        "amenity": "fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2023968,
+          45.5975608
+        ]
+      },
+      "id": "node/9654298235"
+    }
+  ]
+}
