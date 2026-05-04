@@ -1,15 +1,26 @@
+Certamente, ti capisco benissimo. Quando il codice inizia a crescere, è molto più facile copiare e incollare tutto il blocco per essere sicuri di non dimenticare una parentesi o una virgola.
+
+Ecco il codice completo. Ho sostituito il cerchio viola con il simbolo della grotta (cave) e ho aggiunto le etichette automatiche con il nome, così la mappa è leggibile anche senza cliccare.
+
+HTML
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <title>Mappa Lessinia Professionale</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <!-- Carichiamo le librerie per la mappa -->
     <script src="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        /* Stile per il popup */
+        .maplibregl-popup-content {
+            font-family: 'Arial', sans-serif;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 <body>
@@ -17,13 +28,14 @@
     <script>
         const map = new maplibregl.Map({
             container: 'map',
+            // Uso il tuo stile personalizzato MapTiler
             style: 'https://api.maptiler.com/maps/019df264-fca7-7199-9a67-7feac9277de9/style.json?key=XdbX0zpBOhaNfNO40BUA', 
-            center: [11.02, 45.62], // Coordinate Lessinia
+            center: [11.02, 45.62], 
             zoom: 11
         });
 
         map.on('load', () => {
-            // --- LIVELLO 1: CONFINI LESSINIA ---
+            // --- LIVELLO 1: CONFINI ---
             map.addSource('dati-lessinia', {
                 'type': 'geojson',
                 'data': './Confini Lessinia.geojson'
@@ -34,12 +46,12 @@
                 'type': 'line',
                 'source': 'dati-lessinia',
                 'paint': {
-                    'line-color': '#e63946', // Rosso per i confini
+                    'line-color': '#e63946',
                     'line-width': 3
                 }
             });
 
-            // --- LIVELLO 2: GROTTE LESSINIA ---
+            // --- LIVELLO 2: GROTTE CON SIMBOLO ---
             map.addSource('grotte-lessinia', {
                 'type': 'geojson',
                 'data': './Grotte_Lessinia.geojson' 
@@ -47,15 +59,53 @@
 
             map.addLayer({
                 'id': 'livello-grotte',
-                'type': 'circle', // Usiamo 'circle' perché le grotte sono punti
+                'type': 'symbol', // Usiamo 'symbol' per icone e testo
                 'source': 'grotte-lessinia',
+                'layout': {
+                    'icon-image': 'cave', // Icona standard grotta
+                    'icon-size': 1.2,
+                    'icon-allow-overlap': true,
+                    // Mostriamo il nome direttamente sulla mappa
+                    'text-field': ['get', 'name'],
+                    'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
+                    'text-offset': [0, 1.2],
+                    'text-anchor': 'top',
+                    'text-size': 11
+                },
                 'paint': {
-                    'circle-radius': 5,
-                    'circle-color': '#7b2cbf', // Viola scuro per le grotte
-                    'circle-stroke-width': 2,
-                    'circle-stroke-color': '#ffffff'
+                    'text-color': '#4a0072', // Viola scuro per il testo
+                    'text-halo-color': '#ffffff', // Alone bianco per leggere meglio
+                    'text-halo-width': 1.5
                 }
             });
+        });
+
+        // --- GESTIONE CLICK ED ETICHETTE (POPUP) ---
+        map.on('click', (e) => {
+            const features = map.queryRenderedFeatures(e.point, {
+                layers: ['livello-grotte', 'livello-lessinia']
+            });
+
+            if (!features.length) return;
+
+            const feature = features[0];
+            const nome = feature.properties.name || "Senza nome";
+            
+            // Se ci sono altri tag nel GeoJSON (es. descrizione o ref), appariranno qui
+            const descrizione = feature.properties.description ? `<br><small>${feature.properties.description}</small>` : "";
+
+            new maplibregl.Popup()
+                .setLngLat(e.lngLat)
+                .setHTML(`<strong>${nome}</strong>${descrizione}`)
+                .addTo(map);
+        });
+
+        // Cambia il cursore sopra le grotte
+        map.on('mouseenter', 'livello-grotte', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+        map.on('mouseleave', 'livello-grotte', () => {
+            map.getCanvas().style.cursor = '';
         });
     </script>
 </body>
